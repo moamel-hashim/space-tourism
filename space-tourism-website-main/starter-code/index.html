@@ -3,9 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/layout.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Lato:wght@300&family=Lobster&family=Open+Sans:wght@300&display=swap"
+    rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Barlow:wght@300&family=Lato:wght@300&family=Lobster&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet">
+      <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Barlow:wght@300&family=Bellefair&family=Lato:wght@300&family=Lobster&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
   <title>Frontend Mentor | Space tourism website</title>
 </head>
 <body>
@@ -13,33 +22,36 @@
     <div class="background-img">
       <img src="./assets/home/background-home-desktop.jpg" alt="background image">
     </div>
-    <div class="logo">
-      <img src="./assets/shared/logo.svg" alt="page logo">
-    </div>
-    <nav>
-      <ul>
+    <div class="logo flex justify-content-space-between">
+      <img src="./assets/shared/logo.svg" alt="page logo" class="logo-img">
+    <nav class="flex align-items-center">
+      <ul class="flex gap">
         <li>
           <a href="#home">
-            HOME
+            <span aria-hidden="true">00</span> HOME
           </a>
         </li>
         <li>
           <a href="#destination">
-            DESTINATION
+            <span aria-hidden="true">01</span> DESTINATION
           </a>
         </li>
         <li>
           <a href="#crew">
-            CREW
+            <span aria-hidden="true">02</span> CREW
           </a>
         </li>
         <li>
           <a href="#technology">
-            TECHNOLOGY
+            <span aria-hidden="true">03</span> TECHNOLOGY
           </a>
         </li>
       </ul>
     </nav>
+      </div>
+      <div class="flex justify-content-center">
+        <div class="line"></div>
+      </div>
   </header>
 </body>
 </html>

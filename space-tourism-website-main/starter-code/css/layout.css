@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.gap {
+  gap: 4rem;
+}
+
+a:hover {
+  text-underline-offset: 1.8rem;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
