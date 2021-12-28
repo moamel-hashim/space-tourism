@@ -31,3 +31,28 @@ a:hover {
   text-decoration: underline;
   text-decoration-thickness: 3px;
 }
+
+.height {
+  height: 90vh;
+}
+
+.column-thirty-percent {
+  width: 30%;
+}
+
+
+.column-quarter {
+  width: 25%;
+}
+
+.line-height {
+  line-height: 2rem;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.justify-content-space-around {
+  justify-content: space-around;
+}
